@@ -8,6 +8,10 @@ Variables are declared as either storage, memory or calldata to explicitly speci
 storage - variable is a state variable (store on blockchain)
 memory - variable is in memory and it exists while a function is being called
 calldata - special data location that contains function arguments
+
+In summary, memory and calldata are both temporary data storage locations in Solidity, 
+but they have important differences. Memory is used to hold temporary variables during function execution, 
+while Calldata is used to hold function arguments passed in from an external caller
  */
 
 contract DataLocations {
